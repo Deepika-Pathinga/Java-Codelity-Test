@@ -1,12 +1,12 @@
 package test.sep11_2020;
 
-public class Question2_Student {
+public class Q02_Student {
 	
 	private int id;
 	private String name;
 	private Long marks;
 
-	public Question2_Student(int id, String name, Long marks) {
+	public Q02_Student(int id, String name, Long marks) {
 		// TODO Auto-generated constructor stub
 		super();
 		this.id=id;

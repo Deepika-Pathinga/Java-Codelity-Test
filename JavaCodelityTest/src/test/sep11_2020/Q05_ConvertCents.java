@@ -7,7 +7,7 @@ package test.sep11_2020;
 
 import java.util.Scanner;
 
-public class Question5_ConvertCents {
+public class Q05_ConvertCents {
 	final static int DOLLARS = 100;             // number of cents in dollar
 	   final static int QUARTERS = 25;             // number of cents in quarter
 	   final static int DIMES = 10;                // number of cents in dime

@@ -1,9 +1,9 @@
 package test.sep11_2020;
 
-public class Question8_Employee {
+public class Q08_Employee {
 	 private int employeeId; 
 	    private String employeeName;
-	    public Question8_Employee(int employeeId, String employeeName) {
+	    public Q08_Employee(int employeeId, String employeeName) {
 	        this.employeeId = employeeId;
 	        this.employeeName = employeeName;
 	    }
@@ -21,8 +21,8 @@ public class Question8_Employee {
 	    }
 	    @Override
 	    public boolean equals(Object obj) {
-	        if (obj instanceof Question8_Employee) {
-	            return ((Question8_Employee) obj).employeeId == employeeId;
+	        if (obj instanceof Q08_Employee) {
+	            return ((Q08_Employee) obj).employeeId == employeeId;
 	        }
 	        return false;
 	    }

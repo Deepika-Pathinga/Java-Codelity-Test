@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Question2_Rank {
+public class Q02_Rank {
 	public static void main(String args[]) 
 	{ 
 	HashMap<Integer, List<String>> Student = new HashMap<Integer, List<String>>(); 

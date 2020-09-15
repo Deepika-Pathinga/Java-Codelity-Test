@@ -10,16 +10,16 @@ package test.sep11_2020;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Question2_Student_Rank {
+public class Q02_Student_Rank {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Question2_Student> students = new ArrayList<>();
+		ArrayList<Q02_Student> students = new ArrayList<>();
         
-        students.add(new Question2_Student(1, "Student1", (long) 400));
-        students.add(new Question2_Student(2, "Student2", (long) 420));
-        students.add(new Question2_Student(3, "Student3", (long) 410));
-        students.sort(new Question2_Rank1());
+        students.add(new Q02_Student(1, "Student1", (long) 400));
+        students.add(new Q02_Student(2, "Student2", (long) 420));
+        students.add(new Q02_Student(3, "Student3", (long) 410));
+        students.sort(new Q02_Rank1());
         
        // System.out.println(students);
      //  Iterator it = students.iterator();

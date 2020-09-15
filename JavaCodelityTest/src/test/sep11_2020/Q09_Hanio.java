@@ -5,7 +5,7 @@ package test.sep11_2020;
 
 import java.util.*;
 
-public class Quetion9_Hanio {
+public class Q09_Hanio {
 	 public static int N;
      /* Creating Stack array  */
      public static Stack<Integer>[] tower = new Stack[4]; 

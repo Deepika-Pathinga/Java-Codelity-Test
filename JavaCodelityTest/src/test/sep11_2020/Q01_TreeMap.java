@@ -9,7 +9,7 @@ package test.sep11_2020;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Question1_TreeMap {
+public class Q01_TreeMap {
 	public static void main(String[] args) {
 		TreeMap<Integer, String> student = 
 	             new TreeMap<Integer, String>();

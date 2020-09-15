@@ -6,7 +6,7 @@ package test.sep11_2020;
 
 import java.util.*; 
 
-public class Question4_TreeSet {
+public class Q04_TreeSet {
 	public static void main(String[] args) 
 	 { 
 	     TreeSet<String> ts1 = new TreeSet<String>(); 
