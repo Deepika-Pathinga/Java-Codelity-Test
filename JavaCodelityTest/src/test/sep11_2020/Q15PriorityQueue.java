@@ -2,10 +2,10 @@ package test.sep11_2020;
 
 import java.util.NoSuchElementException;
 
-public class Q15_PriorityQueue {
+public class Q15PriorityQueue {
 	private static int[] innerArray;
     private int size;
-    public Q15_PriorityQueue() {
+    public Q15PriorityQueue() {
         this.innerArray = new int[10];
         size = 0;
     }
@@ -89,7 +89,7 @@ public class Q15_PriorityQueue {
     }
     
     public static void main(String[] args) {
-    	Q15_PriorityQueue pq = new Q15_PriorityQueue();
+    	Q15PriorityQueue pq = new Q15PriorityQueue();
     	pq.enqueue(6);
     	pq.enqueue(1);
     	pq.enqueue(3);

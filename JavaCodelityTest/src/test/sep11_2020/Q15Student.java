@@ -2,12 +2,12 @@ package test.sep11_2020;
 
 
 
-public class Q15_Student implements Comparable<Q15_Student> {
+public class Q15Student implements Comparable<Q15Student> {
 	private String name; 
     private Long id; 
           
     // A parameterized student constructor 
-    public Q15_Student(String name, Long id) { 
+    public Q15Student(String name, Long id) { 
       
         this.setName(name); 
         this.setId(id); 
@@ -32,7 +32,7 @@ public class Q15_Student implements Comparable<Q15_Student> {
 
     
 	 @Override
-	    public int compareTo(Q15_Student s) {
+	    public int compareTo(Q15Student s) {
 	        return this.getId().compareTo(s.getId());
 	    }
 
